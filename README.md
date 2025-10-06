@@ -1,176 +1,164 @@
-<div align="center">
-
-<img src="resources/icons/favicon/apple-touch-icon.png" alt="KillPort Logo" width="120"/>
+<div align="center"> <img src="resources/icons/favicon/apple-touch-icon.png" alt="KillPort Logo" width="120"/>
 
 # KillPort Advanced v2.0
 
-**Suite completa per la gestione delle porte su macOS con monitoraggio avanzato, supporto range multipli e benchmark integrato.**
+**Complete suite for port management on macOS with advanced monitoring, multiple range support, and integrated benchmarking.**
 
-<div align="center">
-<a href="https://github.com/AntonioDEM/killport-advanced/stargazers"><img src="https://img.shields.io/github/stars/AntonioDEM/killport-advanced" alt="Stars Badge"/></a>
-<a href="https://github.com/AntonioDEM/killport-advanced/network/members"><img src="https://img.shields.io/github/forks/AntonioDEM/killport-advanced" alt="Forks Badge"/></a>
-<a href="https://github.com/AntonioDEM/killport-advanced/pulls"><img src="https://img.shields.io/github/issues-pr/AntonioDEM/killport-advanced" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/AntonioDEM/killport-advanced/issues"><img src="https://img.shields.io/github/issues/AntonioDEM/killport-advanced" alt="Issues Badge"/></a>
-<a href="https://github.com/AntonioDEM/killport-advanced/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AntonioDEM/killport-advanced?color=2b9348"></a>
-<a href="https://github.com/AntonioDEM/killport-advanced/blob/main/LICENSE"><img src="https://img.shields.io/github/license/AntonioDEM/killport-advanced?color=2b9348" alt="License Badge"/></a>
-</div>
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md) [![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
 
-<br/>
+<div align="center"> <a href="https://github.com/AntonioDEM/killport-advanced/stargazers"><img src="https://img.shields.io/github/stars/AntonioDEM/killport-advanced" alt="Stars Badge"/></a> <a href="https://github.com/AntonioDEM/killport-advanced/network/members"><img src="https://img.shields.io/github/forks/AntonioDEM/killport-advanced" alt="Forks Badge"/></a> <a href="https://github.com/AntonioDEM/killport-advanced/pulls"><img src="https://img.shields.io/github/issues-pr/AntonioDEM/killport-advanced" alt="Pull Requests Badge"/></a> <a href="https://github.com/AntonioDEM/killport-advanced/issues"><img src="https://img.shields.io/github/issues/AntonioDEM/killport-advanced" alt="Issues Badge"/></a> <a href="https://github.com/AntonioDEM/killport-advanced/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AntonioDEM/killport-advanced?color=2b9348"></a> <a href="https://github.com/AntonioDEM/killport-advanced/blob/main/LICENSE"><img src="https://img.shields.io/github/license/AntonioDEM/killport-advanced?color=2b9348" alt="License Badge"/></a> </div> <br/>
 
-![macOS](https://img.shields.io/badge/macOS-10.15+-green?style=flat-square&logo=apple)
-![Shell](https://img.shields.io/badge/Shell-Zsh%20%7C%20Bash-blue?style=flat-square&logo=gnu-bash)
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
+![macOS](https://img.shields.io/badge/macOS-10.15+-green?style=flat-square&logo=apple) ![Shell](https://img.shields.io/badge/Shell-Zsh%20%7C%20Bash-blue?style=flat-square&logo=gnu-bash) ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 
-![Status](https://img.shields.io/badge/status-stable-brightgreen?style=flat-square)
-![Last Commit](https://img.shields.io/badge/last%20commit-October%202025-orange?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
-![Version](https://img.shields.io/badge/version-2.0-red?style=flat-square)
+![Status](https://img.shields.io/badge/status-stable-brightgreen?style=flat-square) ![Last Commit](https://img.shields.io/badge/last%20commit-October%202025-orange?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square) ![Version](https://img.shields.io/badge/version-2.0-red?style=flat-square)
 
 </div>
 
----
+------
 
-## 📑 Indice
+## 📑 Table of Contents
 
-- [Caratteristiche](#-caratteristiche)
-- [Installazione Rapida](#-installazione-rapida)
-- [Utilizzo](#-utilizzo)
+- [Features](#-features)
+- [Quick Installation](#-quick-installation)
+- [Usage](#-usage)
 - [Benchmark Suite](#-benchmark-suite)
-- [Documentazione](#-documentazione)
+- [Documentation](#-documentation)
 - [Troubleshooting](#-troubleshooting)
-- [Contribuire](#-contribuire)
-- [Licenza](#-licenza)
+- [Contributing](#-contributing)
+- [License](#-license)
 
----
+------
 
-## ✨ Caratteristiche
+## ✨ Features
 
-- 🎯 **Kill singola porta o range multipli** - Gestione flessibile delle porte
-- 🔍 **Monitoraggio avanzato** - Visualizzazione dettagliata dei processi in ascolto
-- ⚡ **Performance ottimizzate** - Operazioni rapide ed efficienti
-- 📊 **Benchmark integrato** - Suite completa per test di performance
-- 🐍 **Integrazione Conda** - Supporto nativo per ambienti conda
-- 🎨 **Output colorato** - Interfaccia terminale chiara e leggibile
-- 🛡️ **Gestione errori robusta** - Controlli completi e messaggi informativi
-- 📝 **Logging dettagliato** - Tracciamento completo delle operazioni
+- 🎯 **Single port or multiple ranges** - Flexible port management
+- 🔍 **Advanced monitoring** - Detailed visualization of listening processes
+- ⚡ **Optimized performance** - Fast and efficient operations
+- 📊 **Integrated benchmarking** - Complete performance testing suite
+- 🐍 **Conda integration** - Native support for conda environments
+- 🎨 **Colored output** - Clear and readable terminal interface
+- 🛡️ **Robust error handling** - Complete checks and informative messages
+- 📝 **Detailed logging** - Full operation tracking
 
----
+------
 
-## 🚀 Installazione Rapida
+## 🚀 Quick Installation
 
-### Prerequisiti
+### Prerequisites
 
-- macOS 10.15 o superiore
-- Zsh o Bash
+- macOS 10.15 or higher
+- Zsh or Bash
 - Python 3.10+
-- Conda/Miniconda (opzionale ma consigliato)
+- Conda/Miniconda (optional but recommended)
 
-### Installazione Automatica
+### Automatic Installation
 
 ```bash
-# Clone del repository
+# Clone the repository
 git clone https://github.com/AntonioDEM/killport-advanced.git
 cd killport-advanced
 
-# Esegui lo script di installazione
+# Run the installation script
 bash install_killport.sh
 
-# Carica le funzioni nel tuo shell
+# Load the functions in your shell
 source killport_zshrc_function.sh
 ```
 
-### Installazione Manuale
+### Manual Installation
 
-Se preferisci installare manualmente, aggiungi al tuo `~/.zshrc` o `~/.bashrc`:
+If you prefer to install manually, add to your `~/.zshrc` or `~/.bashrc`:
 
 ```bash
-# Aggiungi il percorso alle funzioni
+# Add the path to functions
 source /path/to/killport-advanced/killport_zshrc_function.sh
 ```
 
-Poi ricarica la configurazione:
+Then reload the configuration:
 
 ```bash
-source ~/.zshrc  # per Zsh
-# oppure
-source ~/.bashrc # per Bash
+source ~/.zshrc  # for Zsh
+# or
+source ~/.bashrc # for Bash
 ```
 
----
+------
 
-## 💻 Utilizzo
+## 💻 Usage
 
-### Comandi Base
+### Basic Commands
 
 ```bash
-# Kill di una singola porta
+# Kill a single port
 killport 8080
 
-# Kill di range multipli
+# Kill multiple ranges
 killport 3000-3005 8080-8085
 
-# Monitoraggio porte in ascolto
+# Monitor listening ports
 monitor_ports
 
-# Visualizza aiuto
+# Show help
 killport --help
 ```
 
-### Esempi Avanzati
+### Advanced Examples
 
 ```bash
-# Kill di più porte specifiche
+# Kill multiple specific ports
 killport 3000 3001 8080 9000
 
-# Combinazione di porte singole e range
+# Combination of single ports and ranges
 killport 3000 5000-5005 8080-8090
 
-# Monitoraggio con filtering
+# Monitoring with filtering
 monitor_ports | grep python
 ```
 
-### Integrazione con Conda
+### Conda Integration
 
-Il tool rileva automaticamente l'ambiente conda attivo e lo gestisce in modo ottimale:
+The tool automatically detects the active conda environment and manages it optimally:
 
 ```bash
-# Attiva ambiente
+# Activate environment
 conda activate myenv
 
-# Usa killport normalmente
+# Use killport normally
 killport 8080
 
-# L'ambiente conda viene preservato
+# The conda environment is preserved
 ```
 
----
+------
 
 ## 📊 Benchmark Suite
 
-La suite di benchmark integrata permette di testare le performance del sistema.
+The integrated benchmark suite allows you to test system performance.
 
-### Esecuzione Benchmark
+### Running Benchmarks
 
 ```bash
-# Vai nella cartella benchmark
+# Go to the benchmark folder
 cd benchmark
 
-# Esegui il benchmark originale
+# Run the original benchmark
 bash benchmark_original.sh
 
-# Visualizza i risultati
+# View the results
 bash benchmark_visualizer_original.sh
 ```
 
-### Report Generati
+### Generated Reports
 
-I benchmark generano automaticamente:
-- 📈 File CSV con risultati dettagliati
-- 📊 Grafici di performance
-- 📝 Report markdown completi
-- 📉 Analisi comparative
+Benchmarks automatically generate:
 
-I risultati vengono salvati in:
+- 📈 CSV files with detailed results
+- 📊 Performance charts
+- 📝 Complete markdown reports
+- 📉 Comparative analysis
+
+Results are saved in:
+
 ```
 benchmark/
 ├── benchmark_results_YYYYMMDD_HHMMSS.csv
@@ -179,27 +167,28 @@ benchmark/
 └── benchmark_report_YYYYMMDD_HHMMSS.md
 ```
 
----
+------
 
-## 📚 Documentazione
+## 📚 Documentation
 
-Per documentazione dettagliata, consulta:
+For detailed documentation, see:
 
-- [BENCHMARK_GUIDE.md](benchmark/BENCHMARK_GUIDE.md) - Guida completa ai benchmark
-- [CONTRIBUTING.md](CONTRIBUTING.md) - Come contribuire al progetto
-- [LICENSE](LICENSE) - Licenza MIT
+- [BENCHMARK_GUIDE.md](benchmark/BENCHMARK_GUIDE.md) - Complete benchmark guide
+- [CONTRIBUTING.md](CONTRIBUTING.md) - How to contribute to the project
+- [LICENSE](LICENSE) - MIT License
 
----
+------
 
 ## 🔧 Troubleshooting
 
-### Porta già in uso
+### Port already in use
 
 ```bash
 Error: Port 8080 is already in use
 ```
 
-**Soluzione**: Usa killport per terminare il processo:
+**Solution**: Use killport to terminate the process:
+
 ```bash
 killport 8080
 ```
@@ -210,78 +199,80 @@ killport 8080
 Error: Permission denied
 ```
 
-**Soluzione**: Alcuni processi richiedono privilegi elevati:
+**Solution**: Some processes require elevated privileges:
+
 ```bash
 sudo killport 8080
 ```
 
-### Funzione non trovata
+### Function not found
 
 ```bash
 command not found: killport
 ```
 
-**Soluzione**: Ricarica le funzioni shell:
+**Solution**: Reload the shell functions:
+
 ```bash
 source killport_zshrc_function.sh
 ```
 
-### Problemi con Conda
+### Conda Issues
 
-Se l'ambiente conda non viene rilevato correttamente:
+If the conda environment is not detected correctly:
 
 ```bash
-# Reinizializza conda
-conda init zsh  # o bash
+# Reinitialize conda
+conda init zsh  # or bash
 
-# Ricarica shell
+# Reload shell
 source ~/.zshrc
 ```
 
----
+------
 
-## 🤝 Contribuire
+## 🤝 Contributing
 
-Contributi, issues e feature requests sono benvenuti!
+Contributions, issues, and feature requests are welcome!
 
-Consulta [CONTRIBUTING.md](CONTRIBUTING.md) per le linee guida.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Come Contribuire
+### How to Contribute
 
-1. Fork del progetto
-2. Crea il tuo feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit delle modifiche (`git commit -m 'Add some AmazingFeature'`)
-4. Push al branch (`git push origin feature/AmazingFeature`)
-5. Apri una Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
----
+------
 
-## 📄 Licenza
+## 📄 License
 
-Distribuito sotto licenza MIT. Vedi [LICENSE](LICENSE) per maggiori informazioni.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
----
+------
 
-## 👨‍💻 Autore
+## 👨‍💻 Author
 
 **Antonio DeMarcus**
 
 - GitHub: [@AntonioDEM](https://github.com/AntonioDEM)
 - Repository: [killport-advanced](https://github.com/AntonioDEM/killport-advanced)
 
----
+------
 
-## 🙏 Ringraziamenti
+## 🙏 Acknowledgments
 
-- Ispirato dal progetto [killport](https://github.com/jkfran/killport) di jkfran
-- Community open source per il supporto
-- Tutti i contributori del progetto
+- Inspired by the [killport](https://github.com/jkfran/killport) project by jkfran
+- Open source community for support
+- All project contributors
 
----
+------
 
 <div align="center">
 
-**⭐ Se questo progetto ti è utile, lascia una stella! ⭐**
+**⭐ If you find this project useful, leave a star! ⭐**
 
 Made with ❤️ by [Antonio DeMarcus](https://github.com/AntonioDEM)
 
