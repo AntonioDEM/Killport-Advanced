@@ -5,7 +5,7 @@ Thank you for your interest in contributing to Killport-Advanced! This document 
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/AntonioDemarcus/killport-advanced.git`
+2. Clone your fork: `git clone https://github.com/AntonioDem/killport-advanced.git`
 3. Create a new branch: `git checkout -b feature/your-feature-name`
 4. Make your changes
 5. Test your changes thoroughly
