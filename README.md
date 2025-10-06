@@ -49,7 +49,9 @@
 - macOS 10.15 or higher
 - Zsh or Bash
 - Python 3.10+
-- Conda/Miniconda (optional but recommended)
+- [Conda/Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) (optional but recommended)
+- [Homebrew](https://brew.sh)
+- [killport](https://formulae.brew.sh/formula/killport#default) project by [jkfran](https://github.com/jkfran/killport)
 
 ### Automatic Installation
 
