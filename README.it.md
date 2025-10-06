@@ -264,7 +264,7 @@ Distribuito sotto licenza MIT. Vedi [LICENSE](LICENSE) per maggiori informazioni
 
 ## 👨‍💻 Autore
 
-**Antonio DeMarcus**
+**Antonio Demarcus**
 
 - GitHub: [@AntonioDEM](https://github.com/AntonioDEM)
 - Repository: [killport-advanced](https://github.com/AntonioDEM/killport-advanced)
@@ -283,6 +283,6 @@ Distribuito sotto licenza MIT. Vedi [LICENSE](LICENSE) per maggiori informazioni
 
 **⭐ Se questo progetto ti è utile, lascia una stella! ⭐**
 
-Made with ❤️ by [Antonio DeMarcus](https://github.com/AntonioDEM)
+Made with ❤️ by [Antonio Demarcus](https://github.com/AntonioDEM)
 
 </div>
